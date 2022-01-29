@@ -18,7 +18,7 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Wonderchild                         # the main title
+title: "Saad Javed"                        # the main title
 
 tagline: Advanced persistent nerd interested in cryptography, chess, stoicism, and history.   # it will display as the sub-title
 
@@ -82,7 +82,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar/avatar.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
