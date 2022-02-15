@@ -1,5 +1,4 @@
 ---
-layout: post
 title: TheCyberGrabs 3 | RSA | Crypto
 author: wonderchild
 date: 2022-02-15 9:34:00 +0800
