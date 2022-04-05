@@ -3,7 +3,7 @@ title: HackTheBox - GoodGames
 author:
   name: wonderchild
   link: https://twitter.com/vonderchild
-date: 2022-04-05 4:40:00 +0700
+date: 2022-04-05 4:40:00 -0700
 categories: [HTB]
 tags: [HTB, boot2root]
 ---
