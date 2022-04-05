@@ -3,7 +3,7 @@ title: Introduction to CryptoHack
 author:
   name: wonderchild
   link: https://twitter.com/vonderchild
-date: 2022-04-15 4:00:00 +0800
+date: 2022-04-05 4:20:00 +0000
 categories: [crypto]
 tags: [crypto, CryptoHack]
 ---
