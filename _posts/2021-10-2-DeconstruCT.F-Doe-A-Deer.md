@@ -38,7 +38,6 @@ Back to google, I found [this writeup](https://www.deepcode.ca/index.php/2017/06
 
 ![Figure 1](https://i.imgur.com/52MCTOy.png)
 
-Figure 1
 
 The columns represent the pitch, while the rows represent the time units for each note `(1, 2, 3 or 4)`. It's mentioned in the writeup that the key is defined using a `clef`, a `tonic`, a `mode` and a `rythmic unit`. 
 
@@ -46,7 +45,6 @@ These `4` elements when combined, generate a key which can be used for both encr
 
 ![Figure 2](https://i.imgur.com/pEaQL6o.png)
 
-Figure 2
 
 The given key specifies a *`1/8`* rhythm, as such an [Eighth](https://en.wikipedia.org/wiki/Eighth_note) note will be worth `1-time unit`, a [Quarter](https://en.wikipedia.org/wiki/Quarter_note) note will be worth `2-time units` and the [half note](https://en.wikipedia.org/wiki/Half_note) will be worth `4-time units`. 
 
@@ -58,19 +56,16 @@ Let's start mapping the counts onto the pdf. I have tried to explain the mapping
 
 ![Figure 3](https://i.imgur.com/1StKKZn.png)
 
-Figure 3
 
- We're done with the hard part, now we just need to know the alphabet equivalents of all solfege syllables. We can easily find the solfege syllables' alphabets equivalent on google.
+We're done with the hard part, now we just need to know the alphabet equivalents of all solfege syllables. We can easily find the solfege syllables' alphabets equivalent on google.
 
-![Figure 3](https://i.imgur.com/BmYc4JT.png)
+![Figure 4](https://i.imgur.com/BmYc4JT.png)
 
-Figure 3
 
 We have got all we need to decrypt the ciphertext. Let's begin the process.
 
 ![Figure 5](https://i.imgur.com/QQ924Og.png)
 
-Figure 5
 
 After applying the above process on all of the ciphertext, you'll end up with:
 
@@ -88,6 +83,5 @@ Let us give it a go.
 
 ![Figure 6](https://i.imgur.com/STf5jpT.png)
 
-Figure 6
 
- And, voila! We have got the flag.
+And, voila! We have got the flag.
