@@ -23,7 +23,7 @@ timezone: Asia/Karachi
 
 title: Saad Javed                          # the main title
 
-tagline: Advanced persistent nerd interested in cryptography, blockchain, chess, history, and stoicism.   # it will display as the sub-title
+tagline: Advanced persistent nerd interested in cryptography, chess, stoicism, and history.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
