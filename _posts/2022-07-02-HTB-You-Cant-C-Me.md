@@ -67,7 +67,7 @@ undefined4 main(void)
   fgets(input_password,0x15,stdin);
   result = strcmp((char *)&local_28,input_password);
   if (result == 0) {
-    printf("HTB{%s}\n",input_password);
+    printf("HTB{\%s}\n",input_password);
   }
   else {
     printf("I said, you can\'t c me!\n");
