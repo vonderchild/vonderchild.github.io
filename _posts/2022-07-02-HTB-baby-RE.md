@@ -16,7 +16,7 @@ The challenge description states:
 
 We are provided with a file named `auth`. Let ys begin by checking file type and metadata. For this purpose, I’ll use the `file` command which lets you see the type of *file* you're dealing with.
 
-![file](/assets/img/intro-to-rev/baby/baby1.png)
+![file](/assets/img/intro-to-rev/baby/baby_1.png)
 
 The output shows that it is a 64-bit executable and linkable format file. 
 
@@ -26,7 +26,7 @@ The output shows that it is a 64-bit executable and linkable format file.
 
 Let’s use the `strings` utility to find any hardcoded strings inside the binary.
 
-![strings](/assets/img/intro-to-rev/baby/baby2.png)
+![strings](/assets/img/intro-to-rev/baby/baby_2.png)
 
 The output reveals the hardcoded key.
 
@@ -36,7 +36,7 @@ The output reveals the hardcoded key.
 
 Let’s now try using `ltrace` utility to see what library calls are being made by the binary.
 
-![wonderchild@kali(13).png](/assets/img/intro-to-rev/baby/baby3.png)
+![ltrace](/assets/img/intro-to-rev/baby/baby_3.png)
 
 The output gives the correct key against which comparison is made.
 
@@ -76,7 +76,7 @@ The code reveals both the correct key as well as the flag (in hexadecimal).
 
 # Method 4 - Radare2
 
-![radare2](/assets/img/intro-to-rev/baby/baby4.png)
+![radare2](/assets/img/intro-to-rev/baby/baby_4.png)
 
 The code reveals both the correct key as well as the flag (in hexadecimal).
 
