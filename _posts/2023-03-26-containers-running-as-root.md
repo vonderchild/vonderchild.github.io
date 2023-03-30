@@ -6,7 +6,6 @@ categories: [Containers]
 tags: [Containers, Security]
 ---
 
-
 ---
 
 Containers have revolutionized modern software development, enabling us to develop, build, package, and deploy software applications faster and more efficiently than ever before. The benefits of containerization are many, from easier deployment and scaling to improved resource utilization and portability. However, despite the advantages that containers offer, they are not immune to security risks. In this post, let's discuss how root inside the container and on the host essentially mean one and the same thing.
