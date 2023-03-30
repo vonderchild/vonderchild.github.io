@@ -1,0 +1,13 @@
+flag = flag.encode()
+    for i in range(3):
+        flag = base64.b16encode(flag)
+        flag = base64.b32encode(flag)
+        flag = base64.b64encode(flag)
+
+    fernet = Fernet(key)
+
+    for i in range(3):
+        flag = fernet.encrypt(flag)
+
+    for i in range(3):
+        flag = binascii.hexlify(flag)
